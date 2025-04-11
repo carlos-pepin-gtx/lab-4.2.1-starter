@@ -2,20 +2,34 @@
 
 html {
     margin: 25px;
-    background-color: lightblue;
+    background-color: #eae2b7;
     font-family: verdana;
     font-size: 20px;
 }
 
 h3 {
     margin-top: 20px;
-    background-color: lightblue;
-    font-size: 30px;
+    background-color: #6a994e;
+    font-size: 40px;
     font-weight: bolder;
+    text-align: center;
 }
 
-p {
-    margin-top: 10px;
-    margin-left: 15px;
-    background-color: lightblue;
+.content {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
+    text-align: center;
+    margin: 40px auto;
+    max-width: 80%;
+    line-height: 1.6;
+    background-color: #fff8dc; /* soft cream */
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    max-width: 200px;
+    height: auto;
+    display: inline-block;
 }
